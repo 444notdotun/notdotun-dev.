@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.one{
+    width: 100px;
+
+    background-color: green;
+    margin: ;
+    
+}
+.box{
+display: flex;
+justify-content: center;
+height: 100vh;
+align-items: center;
+
+}
+button{
+    width: 300px;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    transition: backgroundcolor 5s ease;
+}
+button:hover{
+background-color: blue;
+
+
+}
