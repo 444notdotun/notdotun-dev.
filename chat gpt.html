@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="refresh" content="100" />
+  <title>Responsive CSS Grid</title>
+
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    main {
+      background-color: black;
+      margin-top: 50px;
+      padding: 20px 10px 40px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .item {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      color: white;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #4fc3f7;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div><img class="item" src="https://media.istockphoto.com/id/2064007153/photo/video-call-home-and-portrait-of-business-woman.jpg?s=612x612&w=0&k=20&c=HKndF4nVjpak_ecqw4WckBhLO7OSk37Y7tsPsGjayLU=" alt="business woman"></div>
+      <div><img class="item" src="https://media.istockphoto.com/id/1198252585/photo/happy-indian-woman-look-at-webcam-doing-job-interview-videochat.jpg?s=612x612&w=0&k=20&c=4xvWW9lNc_VKMdMx9WYR491-NEoNt9su5Ug5CSHdD64=" alt="businessman"></div>
+      <div><img class="item" src="https://media.istockphoto.com/id/1376380741/photo/happy-cute-teenage-girl-with-pinkish-hair-smiling-broadly.jpg?s=612x612&w=0&k=20&c=_IJQsxCDxhXkY7hJHPc0IBRtjosj3QO0fASVkPm_9zo=" alt="teenage girl"></div>
+      <div><img class="item" src="https://media.istockphoto.com/id/1329932069/photo/man-doing-a-video-call-at-home-webcam-point-of-view.jpg?s=612x612&w=0&k=20&c=jIcEu4Vx0plLVQhPL2s60WpUTrjgbMFYrsxmD4R91Jk=" alt="businessman"></div>
+      <div><img class="item" src="https://media.istockphoto.com/id/1332972441/photo/asia-businessman-social-distancing.jpg?s=612x612&w=0&k=20&c=7S_zRn4LzLwW-pV6JWyw5DcAk9DxnN3wvvg5xem3qdE=" alt="businessman"></div>
+      <div><img class="item" src="https://media.istockphoto.com/id/1450007043/photo/african-american-male-vlogger.jpg?s=612x612&w=0&k=20&c=7j_fYSv8H3_YfuMXjmeP_ZSgeRovLcLaZBPEIQp2JOs=" alt="vlogger"></div>
+      <div><img class="item" src="https://media.istockphoto.com/id/1363859252/photo/young-man-talking-on-a-video-call.jpg?s=612x612&w=0&k=20&c=tT3WwYer-qBjfvH3afL4ESHjnQ3XA-RCsjrNgsCry2M=" alt="man on video call"></div>
+      <div><img class="item" src="https://media.istockphoto.com/id/1444185197/photo/smiling-african-american-businesswoman.jpg?s=612x612&w=0&k=20&c=ppkS4NOHTAt9iCy0CWoMxnG-1qU2G1oiXZ2Xjb4qAP8=" alt="businesswoman"></div>
+      <div><img class="item" src="https://media.istockphoto.com/id/1357265437/photo/woman-having-video-call-at-home.jpg?s=612x612&w=0&k=20&c=qvAcfXFfpo7uAARmuw8J20_n1CcsTvFClPkutKzx3RU=" alt="video call"></div>
+      <div><img class="item" src="https://media.istockphoto.com/id/1335027295/photo/positive-business-woman-looking-at-camera.jpg?s=612x612&w=0&k=20&c=GK5QmWa1Q9rKn1zCDlb17g33O-S_sfCYczJ9Pxc1gDU=" alt="positive businesswoman"></div>
+      <div><img class="item" src="https://media.istockphoto.com/id/1450007043/photo/african-american-male-vlogger.jpg?s=612x612&w=0&k=20&c=7j_fYSv8H3_YfuMXjmeP_ZSgeRovLcLaZBPEIQp2JOs=" alt="duplicate vlogger"></div>
+      <div><img class="item" src="https://media.istockphoto.com/id/1490134581/photo/smiling-woman-having-video-call-at-home.jpg?s=612x612&w=0&k=20&c=B_CxUJvfgvsKNrvgM74Gv0QAoIjBCEozyjpjF_iVG78=" alt="smiling woman"></div>
+    </div>
+  </main>
+
+  <footer>
+    Coded by <a href="https://x.com/notdotunAnomage" target="_blank">notdotun</a>
+  </footer>
+</body>
+
+</html>

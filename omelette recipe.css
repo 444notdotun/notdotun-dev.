@@ -1,0 +1,62 @@
+body{
+background-color: antiquewhite;
+
+width: 1440px, 355px;
+
+
+}
+#one2{
+
+    text-indent:px; 
+}
+main{
+background-color: hsl(0, 0%, 100%);
+font-family: "Outfit";
+font-optical-sizing: auto;
+font-weight: 400;
+font-style:normal;
+color: hsl(30, 10%, 34%);
+
+
+padding: 200px;
+border-radius: 20px;
+margin: 10%;
+
+
+
+}
+.one{
+color: black;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.one1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+color:hsl(14, 45%, 36%)
+}
+.two{
+    color: hsl(14, 45%, 36%);
+}      
+ol li::marker{
+    color:hsl(14, 45%, 36%);
+}
+#one{
+background-color:hsla(330, 100%, 98%, 1);
+
+}
+ul li::marker{
+    color:hsl(14, 45%, 36%);
+
+}
+#one1{
+    color: hsl(332, 51%, 32%);   
+    margin-bottom: -1%;
+    text-indent: 20px;
+}
+p{
+font-size: 16px;
+}
+

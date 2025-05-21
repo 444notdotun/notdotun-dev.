@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="100">
+    <title>Css grid</title>
+    
+    <style>
+        body{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+main{
+  background-color: black;
+ padding-top: 5px;
+ padding-left: 2px;
+ padding-bottom: 40px;
+ padding-right: 5px;
+ margin-top: 50px;
+  
+}
+.item{
+  width: 100%;
+  height: 100%;
+  padding:17px;
+    
+    
+}
+.container{
+ display: grid;
+ grid-template-columns: repeat(4,383px);
+ grid-template-rows: repeat(3, 180px);
+ gap: 10px;  
+ 
+}
+img{
+    border-radius: 27px;
+    
+}
+@media (max-width:767px ) {
+  
+  .container{
+    grid-template-columns: repeat(1,100px);
+    gap: 5px;
+     }    
+    main{
+      margin-top:30px ;
+      padding-top: 3px;
+      background-color: black;
+      margin-bottom: 20px;
+      padding-bottom: 40px
+
+      }
+    .item{
+        width: 100%;
+        height: 100%;
+        padding:20px;}
+    img{
+          border-radius: 27px;
+          
+        }
+      }
+footer{
+  text-align: end;
+}
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <!-----container--->
+            <div class="container">
+                   <div> <img class="item 1" src="https://media.istockphoto.com/id/2064007153/photo/video-call-home-and-portrait-of-business-woman-for-conversation-online-chat-and-virtual.jpg?s=612x612&w=0&k=20&c=HKndF4nVjpak_ecqw4WckBhLO7OSk37Y7tsPsGjayLU=" alt=" photos of business woman"></div>
+                    <div><img class="item 3" src="https://media.istockphoto.com/id/1198252585/photo/happy-indian-woman-look-at-webcam-doing-job-interview-videochat.jpg?s=612x612&w=0&k=20&c=4xvWW9lNc_VKMdMx9WYR491-NEoNt9su5Ug5CSHdD64=" alt="photo of a businessman "></div>
+                    <div><img class="item 2" src="https://media.istockphoto.com/id/1376380741/photo/happy-cute-teenage-girl-with-pinkish-hair-smiling-broadly-while-talking-to-friend-online.jpg?s=612x612&w=0&k=20&c=_IJQsxCDxhXkY7hJHPc0IBRtjosj3QO0fASVkPm_9zo=" alt="photo of a businessman "></div>
+                    <div><img class="item 4" src="https://media.istockphoto.com/id/1329932069/photo/man-doing-a-video-call-at-home-webcam-point-of-view.jpg?s=612x612&w=0&k=20&c=jIcEu4Vx0plLVQhPL2s60WpUTrjgbMFYrsxmD4R91Jk=" alt="photo of a businessman "></div>
+                    <div><img class="item 5" src="https://media.istockphoto.com/id/1332972441/photo/asia-businessman-social-distancing-in-new-normal-situation-for-virus-prevention-looking-at.jpg?s=612x612&w=0&k=20&c=7S_zRn4LzLwW-pV6JWyw5DcAk9DxnN3wvvg5xem3qdE=" alt="photo of a businessman "></div>
+                    <div><img class="item 11" src="https://media.istockphoto.com/id/1450007043/photo/african-american-male-vlogger.jpg?s=612x612&w=0&k=20&c=7j_fYSv8H3_YfuMXjmeP_ZSgeRovLcLaZBPEIQp2JOs=" alt=" photo of a businessman"></div>
+                    <div><img class="item 6" src="https://media.istockphoto.com/id/1363859252/photo/young-man-talking-on-a-video-call-and-looking-at-the-camera.jpg?s=612x612&w=0&k=20&c=tT3WwYer-qBjfvH3afL4ESHjnQ3XA-RCsjrNgsCry2M=" alt="photo of a businessman "></div>
+                    <div><img class="item 7" src="https://media.istockphoto.com/id/1444185197/photo/portrait-of-smiling-african-american-businesswoman-while-having-a-video-conference-at-her.jpg?s=612x612&w=0&k=20&c=ppkS4NOHTAt9iCy0CWoMxnG-1qU2G1oiXZ2Xjb4qAP8=" alt="photo of a businessman "></div>
+                    <div><img class="item 8" src="https://media.istockphoto.com/id/1357265437/photo/young-smiling-woman-with-bluetooth-headphones-having-video-call-at-home.jpg?s=612x612&w=0&k=20&c=qvAcfXFfpo7uAARmuw8J20_n1CcsTvFClPkutKzx3RU=" alt="photo of a businessman "></div>
+                    <div><img class="item 9" src="https://media.istockphoto.com/id/1335027295/photo/positive-engaged-business-woman-looking-at-camera-speaking-smiling.jpg?s=612x612&w=0&k=20&c=GK5QmWa1Q9rKn1zCDlb17g33O-S_sfCYczJ9Pxc1gDU=" alt="photo of a businessman "></div>
+                    <div><img class="item 10" src="https://media.istockphoto.com/id/1450007043/photo/african-american-male-vlogger.jpg?s=612x612&w=0&k=20&c=7j_fYSv8H3_YfuMXjmeP_ZSgeRovLcLaZBPEIQp2JOs=" alt=" photo of a businessman"></div>
+                    <div><img class="item 12" src="https://media.istockphoto.com/id/1490134581/photo/smiling-confident-young-woman-with-bluetooth-headphones-having-having-video-call-at-home.jpg?s=612x612&w=0&k=20&c=B_CxUJvfgvsKNrvgM74Gv0QAoIjBCEozyjpjF_iVG78=" alt=" photo of a businessman"></div>
+            </div>
+    </main>
+</body>
+<footer> 
+    coded by <a href="https://x.com/notdotunAnomage"> notdotun</a>
+</footer>
+</html>

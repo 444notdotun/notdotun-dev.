@@ -1,0 +1,143 @@
+body{
+margin: 0;
+padding: 0;
+background-color: whitesmoke;
+box-sizing: border-box;
+position: relative;
+}
+main{
+    position: absolute;
+    background-color: hsl(0,0%, 90%);
+    margin-top: 150px ;
+    padding-top: 15px;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    margin-left: 300px;
+    margin-right: 470px;
+   z-index: 3;
+    
+}
+div.four{
+    background-color: rgba(255, 255, 255, 0.665);
+    padding: 50px;
+    background-image: url(Screenshot\ 2025-04-23\ 144211.png) ; 
+    background-repeat: no-repeat    ;  
+    background-position:right; 
+    background-size: 230px;
+    
+}
+.divone{
+
+
+}
+
+
+.one{
+    margin-left: 250px;
+    margin-bottom: 30px;
+    margin-top: -35px;
+    text-transform: capitalize;
+    font-size: 14px;
+    word-spacing: 8px;
+}
+.one a:link{
+    background-color: black;
+    
+    color:white;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 19px;
+    border-radius: 5px;  
+    text-decoration: none;
+
+}
+#one {
+font-family:'poppins';
+font-size: 36px;
+margin-right: 45%;
+text-transform: capitalize;
+font-weight: 500;
+}    
+.two{
+     margin-top: -30px;
+}
+
+#dot{
+font-size:  16px;
+margin-right: 43%;
+margin-top: 5%;
+display: block;
+}
+#link a:link{
+background-color: black;
+    text-align: center;
+    color: white;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 70px;
+    border-radius: 5px;   
+    text-decoration: none;
+    display: inline-bloc;
+}
+#link{
+margin-top: 30px;
+border-radius: 12px;
+
+
+}
+.two{
+    font-family: 'pacifico';
+    text-transform: capitalize;
+    
+}
+#span{
+display: flex;
+flex-direction: row, ;
+justify-content: space-between;
+margin-right: 300px;
+}
+#cop{
+font-family: "pacifico";
+display: inline;
+position: absolute;
+z-index: 3;
+left:100px;
+}
+#dot2{
+    position: absolute;
+background-color: black;
+top: 150px;
+border-radius: 50%;
+padding: 40px;
+left: 250px;
+height: 10px;
+width: 10px;
+z-index: 1px;
+}
+#dot1{
+    position: absolute;
+    background-color: black;
+    top: 570px;
+    border-radius: 50%;
+    padding: 40px;
+    right: 430px;
+    height: 10px;
+    width: 10px;
+    z-index: 1px;
+}
+
+
+header{
+display: inline;
+
+}
+@media only screen and (max-width: 768px) {
+    .main {
+       margin: 10px auto;
+       padding: 10px;}
+    }
