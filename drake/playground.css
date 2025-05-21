@@ -5,11 +5,27 @@
 }
 .one{
     width: 100px;
-
+    height: 100px;
     background-color: green;
-    margin: ;
-    
+    margin: auto;
+    text-align: center;
+    animation: notdotun 0.5s ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+    @keyframes notdotun {
+        from {
+
+            transform: translateX(-100%) ;
+            
+        }
+        to {
+
+            transform: translateX(0%) ;
+        }
+        
+    }
+
 .box{
 display: flex;
 justify-content: center;
@@ -17,16 +33,29 @@ height: 100vh;
 align-items: center;
 
 }
+.two{
+    text-align: center;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: auto;
+}
+.two:hover{
+transform: rotate(40deg);
+
+}
+
 button{
     width: 300px;
     background-color: black;
     border-radius: 12px;
     color: white;
     cursor: pointer;
-    transition: backgroundcolor 5s ease;
+    transition:background-color 1.5s ease;
 }
 button:hover{
 background-color: blue;
-
+width :500px;
 
 }
