@@ -12,7 +12,7 @@ margin: auto;
 width: 1000px;
 display: flex;
 margin-top: 100px;
-
+border-radius: 8px;
 }
 .one{
     display: flex;
@@ -44,23 +44,37 @@ span{
 color: hsl(0, 0%, 100%, 0.6);
 font-family: "Lexend Deca";
 font-size: 10px;
-font-weight: ;
+
 }
 .pp{
     color: hsl(0, 0%, 100%);
 }
 img{
 border: none;
-  background-image: linear-gradient(hsl(277, 64%, 61%,0.75), hsl(277, 64%, 61%, 0.6)), url(image-header-desktop.jpg);
+  background-image: linear-gradient(hsl(277, 64%, 61%, 0.6), hsl(277, 64%, 61%,0.6 )), url(image-header-desktop.jpg);
   background-size: cover;
   background-position: center;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 @media screen and (max-width:768px){
     .body{
-        margin: auto;
-        width: 500px;
-        display: flex;
+        margin-top: 50px;
+        width: 80%;
+        flex-direction: column;
+        
+        margin-left: 20px;
         
     }
+    .one{
+
+        padding: 20px;
+    }
+    .two{
+        flex-direction: column;
+    }
+    img{
+        width: 50%
+    };
     
 }
