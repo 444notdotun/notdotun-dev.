@@ -2,9 +2,14 @@
 module.exports = {
   content: [
     './tailwind.html'
+    
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        secondary:'pink'
+      }
+    },
   },
   plugins: [],
 }

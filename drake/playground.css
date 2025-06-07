@@ -52,7 +52,10 @@ button{
     border-radius: 12px;
     color: white;
     cursor: pointer;
-    transition:background-color 1.5s ease;
+    transition-behavior:unset;
+    
+    transition-property: all;
+    transition-delay: 0.7sss;
 }
 button:hover{
 background-color: blue;
