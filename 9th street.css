@@ -1,0 +1,132 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    
+    background-image: linear-gradient( rgba(128, 0, 128, 0.208)),url(9th\ dashboard.jpg);
+    margin-bottom: 120px;
+    padding-left: 20px;
+}
+header{
+    
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: auto;
+    width: 200px;
+    border-radius: 8px;
+    animation: notdotun 1s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    text-align: center;
+    color: black;
+    background-size: contain;
+}
+@keyframes notdotun {
+    from{
+        transform:translateX(-100%) ;
+    }
+    to{
+        transform: translateX(0%);
+    }
+    
+}
+.head{
+    display:flex;
+    gap: 5px;
+}
+.one{
+    margin-top: 20px;
+    color: white;
+}
+#name{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 10px;
+    width: 300px;
+    border-radius: 8px;
+    background-image: url(9th\ dashboard.jpg);
+    background-size: contain;
+}
+#class{
+    display: flex;
+    padding: 10px ;
+    background-color: dimgray;
+    gap: 10px;
+    width: 200px;
+    border-radius: 8px;
+}
+a:visited{
+    text-decoration: none;
+    color: red;
+}
+a:link{
+    text-decoration: none;
+    color: snow;
+}
+a:active{
+    color: yellow;
+}
+#class:hover{
+width: 250px;
+background-color: rgba(128, 0, 128, 0.208);
+
+}
+.not{
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+}
+#not{
+    margin-top: 60px;
+}
+p{
+    font-family: "inter";
+}
+.font{
+    font-family: "inter";
+    margin-top: 20px;
+    padding: 20px;
+    background-color: black;
+    width: 200px;
+    border-radius: 8px;
+    color: white;
+}
+.head p{
+    font-family: ;
+    font-weight: bold;
+    font-size: 10px;
+}
+#what{
+    font-family: "Edu VIC WA NT Hand";
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+span a{
+    background-color: purple;
+    width: 10px;
+    padding: 2px 10px;
+    border-radius: 12px;
+}
+section{
+margin: auto;
+border-radius: 10px;
+padding: 30px;
+background-image: linear-gradient(hsla(0, 0%, 50%, 0.85)), url(9th\ favicon.jpg) ;
+width: 500px;
+color:black;
+background-size: contain;
+font-family: "inter";
+}
+@media screen  and (max-width:767px){
+    section{
+        margin:auto;
+        width: 420px;
+    }
+    
+}
