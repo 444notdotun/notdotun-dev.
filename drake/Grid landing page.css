@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-areas: 
+  'item-one item-two item-two item-three'
+  'item-one item-five item-six item-three'
+  'item-four item-seven item-eight item-eight'
+  
+  
+  ;
+  margin-top: 80px;
+  gap: 20px;
+  background-color: whitesmoke;
+  margin-bottom: -1500px;
+  justify-content: center;
+  
+}
+
+.item {
+  padding: 10px;
+  border-radius: 8px;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'DM Sans';
+  letter-spacing: -1.5px;
+  z-index: 1;
+}
+
+.item-one {
+  background-color: hsl(31, 66%, 93%);
+  grid-area: item-one;
+  margin-bottom: 640px;
+  padding: 35px;
+  line-height: 25px;
+  letter-spacing: -3px;
+}
+
+.item-two {
+  background-color: hsl(256, 67%, 59%);
+  grid-area: item-two;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  line-height: 30px;
+  padding: 30px;
+}
+.item-two img{
+margin-left: 120px;
+  margin-bottom: -20px;
+}
+
+
+.item-three {
+  background-color: hsl(254, 88%, 90%);
+  grid-area: item-three;
+  text-align: left;
+  letter-spacing: -0.5px;
+  padding: 25px;
+  line-height: 15px;
+  margin-bottom:480px;
+}
+
+.item-four {
+  background-color: hsl(39, 100%, 71%);
+ grid-area: item-four;
+ margin-top: -640px;
+ text-align: left;
+ padding: 20px;
+ line-height: 25px;
+ margin-bottom: 450px;
+}
+
+.item-five{
+background-color:  hsl(0, 0%, 100%);
+grid-area: item-five;
+margin-bottom: 480px;
+line-height: 20px;
+padding: 10px;
+
+}
+
+.item-six {
+  background-color:  hsl(39, 100%, 71%);
+  grid-area: item-six;
+  margin-bottom: 480px;
+ padding: 10px; 
+}
+.item-six img{
+
+  border-block-end: 8;
+}
+.item-seven{
+  grid-area: item-seven;
+  background-color: hsl(0, 0%, 100%);
+  margin-top: -480px;
+  margin-bottom: 450px;
+  padding: 10px;
+  letter-spacing: -0px;
+}
+.item-eight {
+  background-color: hsl(256, 67%, 59%);
+  grid-area: item-eight;
+  margin-top: -480px;
+  margin-bottom: 450px;
+  color: hsl(0, 0%, 100%); 
+  font-weight: 500;
+}
