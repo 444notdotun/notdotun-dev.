@@ -15,14 +15,14 @@ if (score >= 70){
 
 let username ="admin"
 let password="1234"
-if (password ="1234" && username =="admin"){
+if (password =="1234" && username =="admin"){
     console.log( "login successful")
 } else{
     console.log( "access denied")
 };
 
 //canVote
-let age =18
+let age =10
 if ( age >= 18){
     console.log("can Vote")
  } else {
@@ -33,7 +33,7 @@ if ( age >= 18){
  function formula( num1 ,num2, num3, num4){
     return (num1 * num2/num3) + num4
 }
-let F= formula( "C",9 ,5 ,32);
+let F= formula( "c",9 ,5 ,32);
 console.log(  F);// input value in "C" for the formula to work.
 
 //temperaturestatus(temp)
