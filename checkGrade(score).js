@@ -33,7 +33,7 @@ if ( age >= 18){
  function formula( num1 ,num2, num3, num4){
     return (num1 * num2/num3) + num4
 }
-let F= formula( "c",9 ,5 ,32);
+let F= formula( "C",9 ,5 ,32);
 console.log(  F);// input value in "C" for the formula to work.
 
 //temperaturestatus(temp)
