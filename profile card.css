@@ -65,17 +65,40 @@ a:active{
 }
 @media screen and (max-width:767px) {
     main{
-        width: 80%;
+        width: 75%;
         margin: auto;
         margin-top: 30px;
     }
+    img{
+        margin-left: 40px
+
+    };
     body{
-        margin: 10px;
+        margin: 30px ;
     }
     a{
-        width: 200px;
+        width: 190px;
     }
     article{
         font-size: 14px;
     }
+    a:hover{
+        width: 210px;
+    }
+}
+@media screen and ( min-width:768px) and (max-width : 1440px) {
+    main{
+        width: 20%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    a{
+        width: 250px;
+    }
+
+
+    a:hover{
+        width: 260px;
+    }
+
 }
