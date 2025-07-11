@@ -13,10 +13,10 @@ img{
 main{
     background-color: rgba(128, 128, 128, 0.415);
     width: 16%;
-    margin: auto;
-    margin-top: 100px;
+    margin:100px auto 0;
+    
     padding: 30px;
-    border-radius: 8px;
+    border-radius: 18px;
     color: white;
 }
 header{
@@ -39,10 +39,9 @@ a{
     text-align: center;
     cursor: pointer;
     text-transform: capitalize;
-    transition-delay: 7 ;
+    transition: all 0.3s ease-in-out;
     width: 230px;
     margin: auto;
-    transition-behavior: unset ;
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
@@ -65,19 +64,16 @@ a:active{
 }
 @media screen and (max-width:767px) {
     main{
-        width: 75%;
-        margin: auto;
-        margin-top: 30px;
+        width: 85%;
+        margin:40px auto;
+        padding: 15px;
     }
     img{
         margin-left: 40px
 
     };
-    body{
-        margin: 30px ;
-    }
     a{
-        width: 190px;
+        
     }
     article{
         font-size: 14px;
@@ -86,19 +82,32 @@ a:active{
         width: 210px;
     }
 }
-@media screen and ( min-width:768px) and (max-width : 1440px) {
+@media screen and ( min-width:768px) and (max-width : 1023px) {
     main{
-        width: 20%;
-        margin: auto;
-        margin-top: 50px;
+        width: 37%;
+        margin: 50px auto;
+        
     }
     a{
-        width: 250px;
+        width: 230px;
     }
-
-
     a:hover{
         width: 260px;
     }
 
+}
+@media screen and ( min-width:1024px) and (max-width : 1440px) {
+    main{
+    width: 27%;
+    margin: 50px auto;
+        padding: 30px;
+    }
+
+    a{
+        width: 240px;
+    }
+    a:hover{
+        width: 260px;
+    }
+    
 }
