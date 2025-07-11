@@ -40,7 +40,7 @@ a{
     cursor: pointer;
     text-transform: capitalize;
     transition-delay: 7 ;
-    width: 240px;
+    width: 230px;
     margin: auto;
     transition-behavior: unset ;
     display: inline-block;
