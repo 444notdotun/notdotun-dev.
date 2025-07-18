@@ -21,10 +21,6 @@ let space = function () {
 let clearbn = document.createElement("button")
 
 
-
-
-
-
 button.addEventListener("click", () => {
     let inputvalue = input.value;
 
